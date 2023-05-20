@@ -1,6 +1,8 @@
 # Revive an outdated C.H.I.P. from factory OS to Debian Buster
 This guide and scripts are based on the excelent work made by https://github.com/Thore-Krug/Flash-CHIP and the guide in https://gist.github.com/luzhuomi/526fbcc30f3522f09eacf20d0f776fa5
 
+** These instructions and scripts have been updated to only work with the server (headless) version.  Additional updates to work in 2023.**
+
 ## Instructions
 ### Part 1: Stock image
 1. Remove the C.H.I.P. from its case (in case you have a Pocket C.H.I.P.).
