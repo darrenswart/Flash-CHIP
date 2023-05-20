@@ -78,10 +78,12 @@ echo -e "wifi.scan-rand-mac-address=no" >> /etc/NetworkManager/NetworkManager.co
 
 # Define X11 variables for stretch
 sudo mv /etc/X11/xorg.conf /etc/X11/xorg.conf.bak
-wget https://raw.githubusercontent.com/asophila/Flash-CHIP/master/CHIP-updater/stretch_x11.txt
+# use version in local git repo instead of wget
+#wget https://raw.githubusercontent.com/asophila/Flash-CHIP/master/CHIP-updater/stretch_x11.txt
 mv stretch_x11.txt /etc/X11/xorg.conf
 
-wget https://raw.githubusercontent.com/asophila/Flash-CHIP/master/CHIP-updater/stretch-to-buster.sh
+# use version in local git repo instead of wget
+#wget https://raw.githubusercontent.com/asophila/Flash-CHIP/master/CHIP-updater/stretch-to-buster.sh
 chmod +x stretch-to-buster.sh
 mv stretch-to-buster.sh /home/chip/
 echo "."
